@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Encriptador Texto Alura</title>
+</head>
+<body>
+
+    <!--Encabezado del programa-->
+    <header>
+        <a href="#" rel="">
+        <img src="imagenes/logo.svg" alt="Logo de Alura" class="logo"></a>
+    </header>
+
+    <!--Interfaz Principal-->
+    <main>
+        <section class="encriptador">
+            <textarea class="encriptar" placeholder="Por favor, escribe el texto aquí"></textarea>
+            <div class="encriptador-aviso">
+                <img src="imagenes/aviso.svg" alt="Imagen Aviso" class="img-aviso">
+                <p class="texto-alerta">Solo se permiten letras minúsculas y sin tildes.</p>
+            </div>
+            <div class="encriptador-contenedor">
+                <button type="submit" class="btn-encriptar">¡Encriptar!</button>
+                <button type="submit" class="btn-desencriptar">¡Desencriptar!</button>
+            </div>
+        </section>
+        <section class="tarjeta">
+            <div class="tarjeta-contenedor">
+                <img src="imagenes/astro-busca.png" alt="Imagen Muñeco" class="img-muñeco">
+                <p class="linea-1">No se ha ingresado ningún mensaje.</p>
+                <p class="linea-2"> Por favor, escribe el texto que necesitas encriptar o desencriptar.</p>
+            </div>
+            <textarea class="evaluar" type="mensaje" readonly></textarea>
+            <button type="submit" class="btn-copiar">Copiar</button>
+        </section>
+            </main>
+
+    <!--Pie de Página-->
+    <footer class="footer">
+        <p class="copyright">&copy; copyright 2024 - Encriptador de Alura Elaborado por Mr. Kebs</p>
+        <a href="#" rel="">
+            <img src="imagenes/linkedin.svg" alt="Logo LinkedIn" class="linkedin"></a>
+        <a href="#" rel="">
+            <img src="imagenes/github.svg" alt="Logo GitHub" class="github"></a>
+    </footer>
+<script src="/script.js"></script>
+</body>
+</html>
